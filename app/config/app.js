@@ -10,11 +10,11 @@ app.config(function($routeProvider) {
         templateUrl : 'app/views/auteur.html',
         controller : 'auteurController'
     })
-    .when('/formulaire/:id_auteur',{
+    .when('/auteur/formulaire/:id_auteur',{
       templateUrl : 'app/views/formulaire.html',
     controller : 'formController' 
     })
-    .when('/formulaire/addAuteur',{
+    .when('/auteurs/formulaire/addAuteur',{
       templateUrl : 'app/views/formulaire.html',
     controller : 'formController' 
     })	

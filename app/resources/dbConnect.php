@@ -2,7 +2,7 @@
 
 $dsn = 'mysql:dbname=aston;host=localhost';
 $user = 'root';
-$password = '';
+$password = 'lamine';
 
 try {
     $pdo = new PDO($dsn, $user, $password);
